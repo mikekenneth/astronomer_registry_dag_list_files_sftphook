@@ -7,6 +7,7 @@ for your SFTP provider and define an Airflow SFTP/SSH connection to it.
 
 - `apache-airflow-providers-sftp>=4.8.0`
 
+#### This example was done using Airflow 2.8.0
 """
 
 from pendulum import datetime
