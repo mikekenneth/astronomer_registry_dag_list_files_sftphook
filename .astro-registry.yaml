@@ -5,6 +5,7 @@
 # These categories will be applied to all DAGs in the repo.
 categories:
   - Airflow Fundamentals
+  - Orchestration
 # List of DAGs that should be published to the Astronomer Registry.
 dags:
-  - path: dags/example_dags.py
+  - path: dags/sftp_hook_list_files_dag.py
